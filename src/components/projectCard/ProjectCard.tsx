@@ -3,7 +3,11 @@ import { WiDirectionUpRight } from "react-icons/wi";
 
 export default function ProjectCard() {
   return (
-    <a href="https://www.youtube.com/watch?v=UFyAnyOUnnE" target="_blank">
+    <a
+      className={styles.anchor}
+      href="https://www.youtube.com/watch?v=UFyAnyOUnnE"
+      target="_blank"
+    >
       <div className={styles.projectCard}>
         <img className={styles.image} src="./image.jfif" alt="" />
         <div className={styles.cardText}>

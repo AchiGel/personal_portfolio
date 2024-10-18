@@ -24,11 +24,11 @@ export default function Profile() {
       </div>
       <span>EXPERIENCE WITH</span>
       <div className={styles.icons_box}>
-        <FaSquareJs />
-        <RiNextjsFill />
-        <FaHtml5 />
-        <FaCss3Alt />
-        <FaReact />
+        <FaSquareJs className={styles.icon} />
+        <RiNextjsFill className={styles.icon} />
+        <FaHtml5 className={styles.icon} />
+        <FaCss3Alt className={styles.icon} />
+        <FaReact className={styles.icon} />
       </div>
     </section>
   );

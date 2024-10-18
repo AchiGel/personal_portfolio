@@ -5,6 +5,14 @@
   overflow: hidden;
 }
 
+.anchor {
+  transition: scale 0.2s ease-in-out;
+}
+
+.anchor:hover {
+  scale: 0.98;
+}
+
 .image {
   width: 100%;
   object-fit: cover;

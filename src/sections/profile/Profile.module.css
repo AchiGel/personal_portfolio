@@ -54,3 +54,30 @@ span {
   gap: 60.45px;
   font-size: 42px;
 }
+
+.icon {
+  transition: all 0.2s ease;
+}
+
+.icon:first-child:hover {
+  scale: 1.1;
+  fill: yellow;
+}
+
+.icon:nth-child(2):hover {
+  scale: 1.1;
+  fill: gray;
+}
+
+.icon:nth-child(3):hover {
+  scale: 1.1;
+  fill: #e34f26;
+}
+.icon:nth-child(4):hover {
+  scale: 1.1;
+  fill: #1572b6;
+}
+.icon:nth-child(5):hover {
+  scale: 1.1;
+  fill: #61dafb;
+}
