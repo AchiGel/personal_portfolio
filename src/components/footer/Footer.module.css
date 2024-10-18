@@ -1,4 +1,33 @@
 .footer {
   background-color: #191919;
-  padding-inline: 22%;
+  padding: 82.63px 22% 101.51px;
+}
+
+h2 {
+  font-size: 23.526px;
+  font-weight: 700;
+  letter-spacing: 0.471px;
+  margin-bottom: 34px;
+}
+
+p {
+  font-size: 14.115px;
+  font-weight: 300;
+  letter-spacing: 0.282px;
+  color: #c5c5c5;
+  margin-bottom: 22px;
+}
+
+span {
+  color: #c5c5c5;
+  font-size: 14.115px;
+  font-weight: 600;
+  letter-spacing: 0.282px;
+  margin-bottom: 41px;
+  display: inline-block;
+}
+
+.icons {
+  display: flex;
+  gap: 27px;
 }
