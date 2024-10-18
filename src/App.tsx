@@ -1,11 +1,14 @@
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
+import Profile from "./sections/profile/Profile";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Header />
-      <h1>Hello</h1>
+      <main>
+        <Profile />
+      </main>
       <Footer />
     </div>
   );

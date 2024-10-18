@@ -11,3 +11,14 @@ body {
   font-family: "Poppins", sans-serif;
   color: white;
 }
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  padding-inline: 22%;
+}
