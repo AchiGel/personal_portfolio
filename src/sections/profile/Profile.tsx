@@ -10,8 +10,8 @@ export default function Profile() {
       <div className={styles.profile_img}>
         <img className={styles.image} src="./profile.jpg" alt="" />
       </div>
-      <h2>I do code and make content about it!</h2>
-      <p>
+      <h2 className={styles.title}>I do code and make content about it!</h2>
+      <p className={styles.descr}>
         I am a seasoned full-stack software engineer with over 8 years of
         professional experience, specializing in backend development. My
         expertise lies in crafting robust and scalable SaaS-based architectures

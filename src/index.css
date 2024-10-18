@@ -22,3 +22,8 @@ body {
 main {
   padding-inline: 22%;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
