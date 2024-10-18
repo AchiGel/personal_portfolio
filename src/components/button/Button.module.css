@@ -1,0 +1,31 @@
+.general {
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 21.38px;
+  font-weight: 600;
+  padding: 16px 30px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.general:hover {
+  cursor: pointer;
+  scale: 0.95;
+}
+
+.fill {
+  border: 1px solid var(--Primary-Color, #fff);
+  background: linear-gradient(
+      0deg,
+      var(--Primary-Color, #fff) 0%,
+      var(--Primary-Color, #fff) 100%
+    ),
+    var(--Primary-Color, #fff);
+}
+
+.outline {
+  border: 2px solid var(--Primary-Color, #fff);
+  background-color: transparent;
+  color: #fff;
+}

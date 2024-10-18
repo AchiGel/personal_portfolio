@@ -3,6 +3,7 @@ import styles from "./Profile.module.css";
 import { FaSquareJs } from "react-icons/fa6";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import Button from "../../components/button/Button";
 
 export default function Profile() {
   return (
@@ -18,8 +19,8 @@ export default function Profile() {
         on the Amazon AWS platform.
       </p>
       <div className={styles.button_box}>
-        <button>Get In Touch</button>
-        <button>Download CV</button>
+        <Button title="Get In Touch" mode="fill" />
+        <Button title="Download CV" mode="outline" />
       </div>
       <span>EXPERIENCE WITH</span>
       <div className={styles.icons_box}>
