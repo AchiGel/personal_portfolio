@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Planets Facts",
+    "description": "Frontend Mentor pet-project about planets facts.",
+    "image": "/planets.png",
+    "link": "https://planets-facts-two.vercel.app/"
+  },
+  {
+    "id": 2,
+    "name": "Real Estate Platform",
+    "description": "Redberry bootcamp test-project for real estate management",
+    "image": "/redberry.png",
+    "link": "https://redberry-real-estate-manager-one.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "E-commerce site",
+    "description": "Pet-project of e-commerce, built by custom design.",
+    "image": "/e-commerce.png",
+    "link": "https://ecommerce-page-blush.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "Task App",
+    "description": "Frontend Mentor pet-project of task management",
+    "image": "/task-app.png",
+    "link": "https://task-app-ten-xi.vercel.app/"
+  }
+]

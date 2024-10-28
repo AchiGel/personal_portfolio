@@ -9,7 +9,7 @@ import {} from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className={styles.footer}>
+    <div id="footer" className={styles.footer}>
       <h2 className={styles.title}>Contact</h2>
       <p className={styles.descr}>
         I am a web developer with over a year of experience in building

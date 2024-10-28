@@ -1,5 +1,6 @@
 .projectCard {
   max-width: 390px;
+  height: 100%;
   background-color: #2a2a2a;
   border-radius: 18px;
   overflow: hidden;
@@ -15,6 +16,7 @@
 
 .image {
   width: 100%;
+  height: 60%;
   object-fit: cover;
 }
 

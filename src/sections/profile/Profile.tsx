@@ -22,7 +22,9 @@ export default function Profile() {
         APIs.
       </p>
       <div className={styles.button_box}>
-        <Button title="Get In Touch" mode="fill" />
+        <a href="#footer">
+          <Button title="Get In Touch" mode="fill" />
+        </a>
         <a href="https://drive.google.com/uc?export=download&id=14Fvv3J6fDnbNN9TANMhp7X__NXSEH9ef">
           <Button title="Download CV" mode="outline" />
         </a>
