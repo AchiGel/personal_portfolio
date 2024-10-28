@@ -30,4 +30,5 @@
 .icons {
   display: flex;
   gap: 27px;
+  font-size: 1.5rem;
 }

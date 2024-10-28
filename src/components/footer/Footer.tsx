@@ -18,13 +18,24 @@ export default function Footer() {
         implementing efficient state management, and integrating third-party
         APIs.
       </p>
-      <span className={styles.email}>
-        <FaRegEnvelope /> Ar.gelashvili@gmail.com
-      </span>
+      <a href="mailto:Ar.gelashvili@gmail.com">
+        <span className={styles.email}>
+          <FaRegEnvelope /> Ar.gelashvili@gmail.com
+        </span>
+      </a>
       <div className={styles.icons}>
-        <FaFacebook />
-        <FaLinkedin />
-        <FaGithub />
+        <a href="https://www.facebook.com/achi.gelashvili/" target="_blank">
+          <FaFacebook />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/archil-gelashvili/"
+          target="_blank"
+        >
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/AchiGel" target="_blank">
+          <FaGithub />
+        </a>
       </div>
     </div>
   );
