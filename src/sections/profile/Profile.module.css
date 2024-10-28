@@ -81,3 +81,14 @@ span {
   scale: 1.1;
   fill: #61dafb;
 }
+
+.title_span {
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: inherit;
+}

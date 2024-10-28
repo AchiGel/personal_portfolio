@@ -6,9 +6,15 @@ export default function Header() {
       <nav>
         <ul>
           <li>Home</li>
-          <li>Projects</li>
-          <li>Experience</li>
-          <li>Contact</li>
+          <a href="#aboutMe">
+            <li>About me</li>
+          </a>
+          <a href="#projects">
+            <li>Projects</li>
+          </a>
+          <a href="#contact">
+            <li>Contact</li>
+          </a>
         </ul>
       </nav>
     </div>
