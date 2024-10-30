@@ -1,8 +1,11 @@
 import { useState } from "react";
 import styles from "./Header.module.css";
+import { GiHamburgerMenu } from "react-icons/gi";
+import Navigation from "../navigation/Navigation";
 
 export default function Header() {
   const [activeLink, setActiveLink] = useState("Home");
+  const [showNav, setShowNav] = useState(false);
 
   const changeColor = (link: string) => {
     setActiveLink(link);
@@ -10,57 +13,22 @@ export default function Header() {
 
   return (
     <div id="header" className={styles.header}>
+      <div className={showNav ? styles.nav_menu : styles.nav_hidden}>
+        <Navigation
+          activeLink={activeLink}
+          changeColor={changeColor}
+          style={styles.nav_menu_links}
+        />
+      </div>
       <nav>
-        <ul>
-          <a href="#header">
-            <li
-              className={
-                activeLink === "Home"
-                  ? styles.nav_link_clicked
-                  : styles.nav_link
-              }
-              onClick={() => changeColor("Home")}
-            >
-              Home
-            </li>
-          </a>
-          <a href="#aboutMe">
-            <li
-              className={
-                activeLink === "AboutMe"
-                  ? styles.nav_link_clicked
-                  : styles.nav_link
-              }
-              onClick={() => changeColor("AboutMe")}
-            >
-              About me
-            </li>
-          </a>
-          <a href="#projects">
-            <li
-              className={
-                activeLink === "Projects"
-                  ? styles.nav_link_clicked
-                  : styles.nav_link
-              }
-              onClick={() => changeColor("Projects")}
-            >
-              Projects
-            </li>
-          </a>
-          <a href="#contact">
-            <li
-              className={
-                activeLink === "Contact"
-                  ? styles.nav_link_clicked
-                  : styles.nav_link
-              }
-              onClick={() => changeColor("Contact")}
-            >
-              Contact
-            </li>
-          </a>
-        </ul>
+        <Navigation
+          activeLink={activeLink}
+          changeColor={changeColor}
+          desctop={styles.menu_list}
+        />
+        <div className={styles.burger} onClick={() => setShowNav(!showNav)}>
+          <GiHamburgerMenu />
+        </div>
       </nav>
     </div>
   );

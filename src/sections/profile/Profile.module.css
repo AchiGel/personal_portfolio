@@ -55,6 +55,31 @@ span {
   font-size: 42px;
 }
 
+@media screen and (max-width: 537px) {
+  .icons_box {
+    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .icons_box {
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .descr {
+    font-size: 1rem;
+  }
+
+  .profile_section {
+    margin-top: 2rem;
+  }
+}
+
 .icon {
   transition: all 0.2s ease;
 }
