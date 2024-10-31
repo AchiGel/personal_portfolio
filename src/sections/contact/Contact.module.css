@@ -19,6 +19,8 @@
   outline: none;
   resize: none;
   border-radius: 6px;
+  font-size: 1rem;
+  color: #fff;
 }
 
 .form_title {
