@@ -8,10 +8,10 @@
   },
   {
     "id": 2,
-    "name": "Real Estate Platform",
-    "description": "Redberry bootcamp test-project for real estate management",
-    "image": "/redberry.png",
-    "link": "https://redberry-real-estate-manager-one.vercel.app/"
+    "name": "Redberry Momentum",
+    "description": "Redberry Momentum is a task management app built with React, TypeScript, and Vite, designed for creating, updating, and organizing tasks efficiently.",
+    "image": "/momentum.png",
+    "link": "https://redberry-momentum-fawn.vercel.app/"
   },
   {
     "id": 3,
@@ -26,5 +26,19 @@
     "description": "Frontend Mentor pet-project of task management",
     "image": "/task-app.png",
     "link": "https://task-app-ten-xi.vercel.app/"
+  },
+  {
+    "id": 5,
+    "name": "Unilab ShopCo Project",
+    "description": "Unilab acceleration project on React.js",
+    "image": "/unilab.png",
+    "link": "https://unilab-shopco-project.vercel.app/"
+  },
+  {
+    "id": 6,
+    "name": "Horeca Georgia",
+    "description": "A template site for a personal project, developed using React.js & TypeScript.",
+    "image": "/horeca.png",
+    "link": "https://horecageorgia.ge/"
   }
 ]
